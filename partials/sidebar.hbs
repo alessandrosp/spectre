@@ -1,0 +1,12 @@
+<div class="box sidebox about">
+    {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+    <h2>{{@blog.title}}</h2>
+    <div class="sidebox-content">
+        <p>{{@blog.description}}</p>
+
+        <!-- The navigation menu. -->
+        {{navigation}}
+
+        <p>Jesus is my co-pilot.</p>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+
+{{! The main content area on the homepage }}
+<main id="content" class="content clearfix" role="main">
+
+    <div class="empty-space">
+        &nbsp;
+    </div>
+
+    <div class="main-content">
+        {{! The tag below includes the post loop - partials/loop.hbs }}
+        {{> "loop"}}
+    </div>
+
+    <div class="sidebar">
+        {{> "sidebar"}}
+    </div>
+
+</main>

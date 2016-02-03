@@ -1,0 +1,49 @@
+.empty-space {
+    width: 25%;
+    float: left;
+    color: white;
+    /*background-color: #FF0017;*/
+}
+
+/* Created by Alessandro, it replaced .content for the index.hbs */
+.main-content {
+    overflow: hidden;
+    width: 50%;
+    /*max-width: 710px;*/
+    float: left;
+    /*background-color: #C8E7F1;*/
+    padding: 0px;
+}
+
+.sidebar {
+    width: 25%;
+    float: left;
+    /*background-color: #FF0017;*/
+    padding-top: 55px;
+}
+
+.sidebox-content {
+    padding-right: 50px;
+}
+
+/* For mobile devices */
+@media screen and (max-width: 600px) {
+
+    .empty-space {
+        visibility: hidden;
+    }
+
+    .main-content {
+        overflow: hidden;
+        width: 100%;
+        /*max-width: 710px;*/
+        float: left;
+        /*background-color: #C8E7F1;*/
+        padding: 0px;
+    }
+
+    .sidebar {
+        visibility: hidden;
+    }
+
+}
