@@ -1,6 +1,6 @@
 # Spectre
 
-*Spectre* is a lightweight theme for Ghost [Ghost](http://github.com/tryghost/ghost/), inspired by Casper (Ghost's default theme) and Jeff Atwood's [Coding Horror](http://blog.codinghorror.com).
+**Spectre** is a lightweight theme for [Ghost](http://github.com/tryghost/ghost/), inspired by [Casper](https://github.com/TryGhost/Casper) (Ghost's default theme) and Jeff Atwood's [Coding Horror](http://blog.codinghorror.com).
 
 ## Copyright & License
 
